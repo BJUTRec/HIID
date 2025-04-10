@@ -39,9 +39,9 @@ class Mymodel(object):
         self.groups1 = 4
         self.groups2 = 2
 
-        self.alpha = tf.constant(0.15)
-        self.beta = tf.constant(0.15)
-        self.gamma = tf.constant(0.7)
+        self.alpha = tf.constant(0.2)
+        self.beta = tf.constant(0.2)
+        self.gamma = tf.constant(0.6)
 
         self.ssm_temp = tf.constant(0.2)
         self.ssm_reg = tf.constant(0.1)
